@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run generate",
+      "type": "shell",
+      "command": "python schema.py & PID=$!; pnpm run generate; kill $PID;",
+      "problemMatcher": []
+    }
+  ]
+}

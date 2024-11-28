@@ -1,0 +1,3 @@
+inputSpec: http://localhost:3000/openapi.json
+outputDir: ./src/generated
+legacyDiscriminatorBehavior: false
